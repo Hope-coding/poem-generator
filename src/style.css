@@ -23,7 +23,7 @@ body {
 
   }
 
-  .poem-form-container {
+  .recipe-form-container {
     padding: 20px;
     margin-bottom: 25px;
     background-color: #f2f2f2;
@@ -59,7 +59,7 @@ body {
     cursor: pointer;
 }
 
-  .poem {
+  .recipe {
     font-size: 14px;
     background-color: #f2f2f2;
     padding: 50px;

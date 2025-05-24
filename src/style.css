@@ -64,17 +64,18 @@ body {
     background-color: #f2f2f2;
     padding: 50px;
     line-height: 2;
-    border-left: 3px solid #6643b5;
+    border-left: 8px solid #6643b5;
     border-radius: 8px;
-    box-shadow: 0px 15px 50px 0px #f4eeff;
+    box-shadow: 0px 15px 20px 0px #cca8e9;
     /* width: 520px; */
     text-align: left;
   }
 
   footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 12px;
+    line-height: 5px;
 
   }
 
@@ -99,4 +100,19 @@ body {
 
   main {
     width: 600px;
+  }
+
+  .incoming {
+    animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
   }
